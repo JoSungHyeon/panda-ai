@@ -1,8 +1,8 @@
 <template>
-  <Development />
-  <!-- <Header />
+  <!-- <Development /> -->
+  <Header />
   <Intro />
-  <About /> -->
+  <About />
 </template>
 
 <script>
