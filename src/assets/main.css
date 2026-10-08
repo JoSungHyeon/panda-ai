@@ -3,3 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #F2F2F2;
+}
+
+.kr {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.en {
+  font-family: "Roboto", sans-serif;
+}
