@@ -93,14 +93,6 @@ export default {
         swiperImg6
       ]
     }
-  },
-
-  methods: {
-      onSwiper(swiper) {
-    console.log('swiper:', swiper)
-    console.log('modules:', swiper.modules)
-    console.log('autoplay:', swiper.autoplay)
-  }
   }
 }
 </script>
@@ -109,14 +101,20 @@ export default {
 .mainPage {
   position: relative;
   width: 100%;
-  min-height: 100vh;
-  overflow: hidden;
-  background: #F2F2F2;
+  background: linear-gradient(
+    to bottom,
+    #F2F2F2 0%,
+    #F2F2F2 85%,
+    #F7F7F7 92%,
+    #FCFCFC 97%,
+    #FFFFFF 100%
+  );
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 100px;
+  height: 100vh;
 }
 
 .intro {
